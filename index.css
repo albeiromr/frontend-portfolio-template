@@ -488,12 +488,12 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.2);
 }
 
-.work__image-box {
+.work__video-box {
     margin-bottom: var(--gutter-normal);
 }
 
 @media(min-width: 901px) {
-    .work__image-box {
+    .work__video-box {
         flex: 1;
         margin: 0 0 0 10rem;
     }
