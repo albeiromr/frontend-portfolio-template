@@ -611,3 +611,7 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+.work__video{
+    max-width: 100%;
+    border-radius: 1vw;
+}
