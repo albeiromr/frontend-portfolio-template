@@ -613,5 +613,5 @@ body:not(.user-is-tabbing) a:focus {
 }
 .work__video{
     max-width: 100%;
-    border-radius: 1vw;
+    border-radius: clamp(10px, 1vw, 16px);
 }
