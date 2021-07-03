@@ -551,6 +551,11 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+    border-radius: clamp(10px, 1vw, 16px);
+}
+
+.about__photo {
+    border-radius: inherit;
 }
 
 @media(min-width: 901px) {
