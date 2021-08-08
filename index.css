@@ -366,7 +366,7 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .nav__header-icon-container {
-    margin-top: clamp(60px, 8vw, 100px);
+    margin-top: clamp(10px, 3vw, 40px);
   }
 }
 
