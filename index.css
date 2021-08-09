@@ -357,7 +357,7 @@ body:not(.user-is-tabbing) a:focus {
   margin-right: var(--gutter-medium);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .nav {
     display: flex;
     flex-direction: column;
@@ -366,7 +366,7 @@ body:not(.user-is-tabbing) a:focus {
   }
 
   .nav__header-icon-container {
-    margin-top: clamp(10px, 3vw, 40px);
+    display: none;
   }
 }
 
